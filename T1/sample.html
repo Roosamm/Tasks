@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <p id="test">Select this element and modify it with JavaScript</p>
+        <p class="example">Lets try to select this...</p>
+        <p class="example">...and this simultaneously.</p>
+    </main>
+  
+    <script>
+        "use strict";
+        const pTest = document.querySelector('#test');
+        pTest.innerHTML = '<a href="http://metropolia.fi"> Metropolia </a>';
+        pTest.setAttribute('style', 'font-weight: bold');
+        // pTest.style = 
+
+        //select multiple elements
+        const pExample = document.querySelectorAll('.example');
+        // pExample is an array, use [ ] index to select items
+        pExample[0].innerHTML = 'first p with example class';
+        pExample[0].innerHTML = 'second p with example class';
+        
+        pExample[0].addEventListener('click', (evt) => {
+            console.log('p clicked');
+        });
+    </script>
+    
+</body>
+
+</html>
