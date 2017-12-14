@@ -1,20 +1,33 @@
 'use strict';
 
+// select buttons
+const addButton = document.querySelector('#add');
 const changeButton = document.querySelector('#change');
+const toggleButton = document.querySelector('#toggle');
 
-//select p-elements
+
+// select p elements
+const firstP = document.querySelector('p');
 const secondP = document.querySelector('p:nth-child(2)');
+const thirdP = document.querySelector('p:nth-child(3)');
 
-//create eventListeners
-changeButton.addEventListener('click', (evt) => {
-    //if secondP contains class red
-    if(secondP.classList.contains('red')) {
-        //replace it with 'blue'
-        secondP.classList.replace('red', 'blue');
-    } //replace it with 'red'
-    else {
-        secondP.classList.replace('blue', 'red');
-    }
+
+// create eventListeners
+addButton.addEventListener('click', (evt) => {
+    firstP.classList.add('red');
 });
 
-//napit toggle yms
+changeButton.addEventListener('click', (evt) => {
+    // if secondP contains class red
+    if(secondP.classList.contains('red')){
+    // replace it with 'blue'
+    secondP.classList.replace('red', 'blue');
+} else {
+    // replace with 'red'
+    secondP.classList.replace('blue', 'red');
+}
+});
+
+toggleButton.addEventListener('click', (evt) => {
+    thirdP.classList.toggle('green');
+});

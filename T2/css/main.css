@@ -1,0 +1,120 @@
+.boxes {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.box1 {
+    background: red;
+    padding: 5px;
+    width: 7em;
+    height: 150px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box2 {
+    background: green;
+    padding: 5px;
+    width: 5em;
+    height: 150px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box3 {
+    background: orange;
+    padding: 5px;
+    width: 3em;
+    height: 150px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box4 {
+    background: lightblue;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box5 {
+    background: blueviolet;
+    padding: 5px;
+    width: 10em;
+    height: 150px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box6 {
+    background: pink;
+    padding: 5px;
+    width: 3em;
+    height: 150px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box7 {
+    background: tomato;
+    padding: 5px;
+    width: 5em;
+    height: 150px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box8 {
+    background: peru;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box9 {
+    background: yellowgreen;
+    width: 8em;
+    height: 150px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
